@@ -6,7 +6,6 @@ const names = [
     'GROUP 5',
     'GROUP 6',
     'GROUP 7',
-    'GROUP 8'
 ]
 
 

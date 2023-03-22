@@ -1,45 +1,47 @@
 body{
     /* Backgroud */
-    background-image: url('bg.svg');
+    background-image: url('bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: 100%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Cute Font', cursive;
     /* height: 100vh; */    
 }
 
 /* Div for Random Names and Button */
 .randomNames{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 250px;
+  margin-left: 490px;
+  margin-top: 260px;
+  position: fixed;
 }
 
 .randomBtn{
-    background-image: url(btn.svg);
+  background-color: rgba(255, 255, 255, 0);
     background-size: cover;
     border: none;
-    width: 260px;
-    height: 60px;
+    width: 180px;
+    height: 130px;
+    margin-left: 800px;
+    margin-top: 330px;
+    cursor:pointer;
    
     /* text-align: center; */
     font-family: 'Press Start 2P';
-    position: static;
+    position: fixed;
    }
 /* The names */
 .student{
     /* font-family: 'Press Start 2P'; */
     /* font-size: 50px; */
-    color: #5164B8;
+    color: #fff9ec;
     animation: mymove 5s infinite;
+    font-weight: bolder;
 }
 
 @keyframes mymove {
-  45% {font-size: 75px;}
+  45% {font-size: 90px;}
 }
 
 
@@ -50,7 +52,7 @@ body{
     bottom: 0;
     right: 0;
     width: 130px;
-    animation: animate 15s linear infinite;
+    animation: animate 10s linear infinite;
   }
   
   @keyframes animate {
@@ -71,6 +73,7 @@ body{
     left: 0;
     bottom: 0;
     height: 180px;
+    transform: scaleX(-1);
   }
   
   /* .bro{
